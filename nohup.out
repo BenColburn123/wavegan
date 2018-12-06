@@ -1,0 +1,70 @@
+WARNING:tensorflow:From /home/bcolburn/waveganGuitar/loader.py:59: batch_and_drop_remainder (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.batch(..., drop_remainder=True)`.
+--------------------------------------------------------------------------------
+Generator vars
+[100, 16384] (1638400): G/z_project/dense/kernel:0
+[16384] (16384): G/z_project/dense/bias:0
+[1, 25, 512, 1024] (13107200): G/upconv_0/conv2d_transpose/kernel:0
+[512] (512): G/upconv_0/conv2d_transpose/bias:0
+[1, 25, 256, 512] (3276800): G/upconv_1/conv2d_transpose/kernel:0
+[256] (256): G/upconv_1/conv2d_transpose/bias:0
+[1, 25, 128, 256] (819200): G/upconv_2/conv2d_transpose/kernel:0
+[128] (128): G/upconv_2/conv2d_transpose/bias:0
+[1, 25, 64, 128] (204800): G/upconv_3/conv2d_transpose/kernel:0
+[64] (64): G/upconv_3/conv2d_transpose/bias:0
+[1, 25, 1, 64] (1600): G/upconv_4/conv2d_transpose/kernel:0
+[1] (1): G/upconv_4/conv2d_transpose/bias:0
+Total params: 19065345 (72.73 MB)
+--------------------------------------------------------------------------------
+Discriminator vars
+[25, 1, 64] (1600): D/downconv_0/conv1d/kernel:0
+[64] (64): D/downconv_0/conv1d/bias:0
+[25, 64, 128] (204800): D/downconv_1/conv1d/kernel:0
+[128] (128): D/downconv_1/conv1d/bias:0
+[25, 128, 256] (819200): D/downconv_2/conv1d/kernel:0
+[256] (256): D/downconv_2/conv1d/bias:0
+[25, 256, 512] (3276800): D/downconv_3/conv1d/kernel:0
+[512] (512): D/downconv_3/conv1d/bias:0
+[25, 512, 1024] (13107200): D/downconv_4/conv1d/kernel:0
+[1024] (1024): D/downconv_4/conv1d/bias:0
+[16384, 1] (16384): D/output/dense/kernel:0
+[1] (1): D/output/dense/bias:0
+Total params: 17427969 (66.48 MB)
+--------------------------------------------------------------------------------
+2018-11-16 12:00:18.752408: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+WARNING:tensorflow:From /home/bcolburn/waveganGuitar/loader.py:59: batch_and_drop_remainder (from tensorflow.contrib.data.python.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.batch(..., drop_remainder=True)`.
+--------------------------------------------------------------------------------
+Generator vars
+[100, 16384] (1638400): G/z_project/dense/kernel:0
+[16384] (16384): G/z_project/dense/bias:0
+[1, 25, 512, 1024] (13107200): G/upconv_0/conv2d_transpose/kernel:0
+[512] (512): G/upconv_0/conv2d_transpose/bias:0
+[1, 25, 256, 512] (3276800): G/upconv_1/conv2d_transpose/kernel:0
+[256] (256): G/upconv_1/conv2d_transpose/bias:0
+[1, 25, 128, 256] (819200): G/upconv_2/conv2d_transpose/kernel:0
+[128] (128): G/upconv_2/conv2d_transpose/bias:0
+[1, 25, 64, 128] (204800): G/upconv_3/conv2d_transpose/kernel:0
+[64] (64): G/upconv_3/conv2d_transpose/bias:0
+[1, 25, 1, 64] (1600): G/upconv_4/conv2d_transpose/kernel:0
+[1] (1): G/upconv_4/conv2d_transpose/bias:0
+Total params: 19065345 (72.73 MB)
+--------------------------------------------------------------------------------
+Discriminator vars
+[25, 1, 64] (1600): D/downconv_0/conv1d/kernel:0
+[64] (64): D/downconv_0/conv1d/bias:0
+[25, 64, 128] (204800): D/downconv_1/conv1d/kernel:0
+[128] (128): D/downconv_1/conv1d/bias:0
+[25, 128, 256] (819200): D/downconv_2/conv1d/kernel:0
+[256] (256): D/downconv_2/conv1d/bias:0
+[25, 256, 512] (3276800): D/downconv_3/conv1d/kernel:0
+[512] (512): D/downconv_3/conv1d/bias:0
+[25, 512, 1024] (13107200): D/downconv_4/conv1d/kernel:0
+[1024] (1024): D/downconv_4/conv1d/bias:0
+[16384, 1] (16384): D/output/dense/kernel:0
+[1] (1): D/output/dense/bias:0
+Total params: 17427969 (66.48 MB)
+--------------------------------------------------------------------------------
+2018-11-17 10:01:43.843784: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
